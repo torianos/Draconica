@@ -1,0 +1,410 @@
+body {
+    background: white url(https://cdn.amtsft.com/12OS07Z9U-eGvckopjKaIxwuR.jpg) top left no-repeat;
+    font-family: "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif, Georgia, Times New Roman;
+    margin: 0px;
+    background-position: top;
+    background-position-y: 25px;
+}
+.top_line {
+    width: 100%;
+    text-align: center;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+}
+
+.flag {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+}
+.flagru {
+    display: inline-block;
+    width: 28px;
+    height: 21px;
+    background-image: url(/img/russian-flag.jpg);
+    background-position: 50%;
+    background-size: 100%;
+}
+.flagen {
+    display: inline-block;
+    width: 28px;
+    height: 21px;
+    background-image: url(/img/flag-en.png);
+    background-position: 50%;
+    background-size: 100%;  
+    background-repeat: no-repeat;
+    margin-left: 16px;
+}
+
+.top_line {
+    color: white;
+    width: 100%;
+    height: 21px;
+    background: #686878e6;
+    font-family: Verdana !important;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 0;
+    padding-top: 0px;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    text-align: center;
+    padding-top: 4px;
+}
+.top_line a:visited, .top_line a:link {
+    color: #f8c22a;
+}
+a:link, a:visited {
+    color: #000;
+    text-decoration: none;
+}
+a {
+    outline: none;
+    color: #9f5e2f;
+}
+
+
+ul.banner {
+    display: relative;
+    z-index:2;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    position: relative;
+    width: 1080px;
+    font-size: 0.8em;
+    padding-top: 245px;
+}
+
+ul.banner li {
+    background: url(https://cdn.amtsft.com/7_sdVLRw68XhjNPZmSxApi.png) 0 0 no-repeat;
+    display: block;
+    float: left;
+    text-align: center;
+    margin: 0 3px;
+    padding: 6px;
+    width: 178px;
+    height: 88px;
+}
+
+li.download_guest a {
+    background: url(https://cdn.amtsft.com/AK3LtHhrn1kCwI-EmJ2NbdBRf8.png) 0 0 no-repeat;
+    display: block;
+    width: 221px;
+    height: 67px;
+    text-indent: -9999px;
+}
+
+li.registration_guest a {
+    background: url(https://cdn.amtsft.com/AK3LtHhrn1kCwI-EmJ2NbdBRf8.png) -221px 0 no-repeat;
+    display: block;
+    width: 221px;
+    height: 67px;
+    text-indent: -9999px;
+}
+ul.banner li h2 a {
+    background: url(https://cdn.amtsft.com/X239QyvEi-7S6LPwuaJsGOR.png) 0 0 no-repeat;
+    display: block;
+    margin: 0 auto;
+    height: 20px;
+    text-indent: -9999px;
+}
+ul.banner li h2.forum a {
+    background-position: -400px 0px;
+    width: 70px;
+}
+ul.banner li h2.download a {
+    background-position: -201px 0px;
+    width: 79px;
+}
+ul.banner li h2.about a {
+    background-position: 0px 0px;
+    width: 75px;
+}
+ul.banner li h2.about {
+    margin: 0 0 14px 0 !important;
+}
+ul.banner li h2 {
+    margin: 0 0 14px 0;
+    padding: 13px 0 0;
+    width: auto !important;
+    position: static !important;
+    top: 0 !important;
+}
+ul.banner li h2.download {
+    margin: 0 0 14px 0 !important;
+}
+ul.banner li h2 {
+    margin: 0 0 14px 0;
+    padding: 13px 0 0;
+    width: auto !important;
+    position: static !important;
+    top: 0 !important;
+}
+.main_box {
+    position: relative;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    background: url(https://cdn.amtsft.com/vrZeRjn9YmqXyi5OsKoPp324bz.png) top center no-repeat;
+    border: 0;
+    min-height: 590px;
+    width: 1300px; 
+    
+}
+@media (max-width: 1299px) {
+    .main_box  {
+        width: 1220px;
+    }
+}
+@media (max-width: 1100px) {
+    .main_box  {
+        width: 1080px;
+    }
+}
+@media (max-width: 1000px) {
+    .main_box  {
+        width: 1000px;
+    }
+    .fon {
+        width:1000px;
+    }
+}
+
+.main_box_table {
+    position: relative;
+    padding-left: 4px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+    border: 0;
+    min-height: 590px;
+    width: 1000px;
+    margin: 0 auto;
+
+   
+    
+}
+table {
+    empty-cells: show;
+}
+
+ul.block-menu {
+    margin: 8px 0 0 0px;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    z-index: 1;
+    margin-top: -37px; /* СТРАННЫЕ ДЕЛА ПРОИСХОДЯТ */
+}
+
+
+ul.block-menu li {
+    display: inline-block;
+    position: relative;
+    width: 178px;
+    height: 44px;
+}
+ul.block-menu li.home a {
+    background-position: 0px -6px;
+}
+ul.block-menu li a{
+    background: url(img/menu.png) 0 0 no-repeat;
+    display: block;
+    text-indent: -9999px;
+    width: 178px;
+    height: 44px;
+    position: relative;
+    z-index: 220;
+}
+
+ul.block-menu li.home {
+    margin-left: -55px;  
+}
+ul.block-menu li.home a:hover {
+    background-position: 0px -56px;
+}
+
+ul.block-menu li.about {
+    margin-left: -55px;
+}
+
+ul.block-menu li a.select{
+    background-position: -178px -56px;
+}
+ul.block-menu li.about a:hover {
+    background-position: -178px -56px; 
+}
+ul.block-menu li.shop a {
+    background-position: -356px -6px;
+}
+
+ul.block-menu li.shop {
+    margin-left: -55px;
+}
+ul.block-menu li.shop a {
+    background-position: -356px -6px;
+}
+ul.block-menu li.shop a:hover{
+    background-position: -356px -56px;
+}
+
+ul.block-menu li.download {
+    margin-left: -51px;
+}
+ul.block-menu li.download a {
+    background-position: -534px -6px;
+}
+ul.block-menu li.download a:hover {
+    background-position: -534px -56px;
+}
+ul.block-menu li.community {
+    margin-left: -54px;
+}
+ul.block-menu li.community, ul.block-menu li.community a {
+    width: 222px;
+}
+ul.block-menu li.community a {
+    background-position: -712px -6px;
+}
+ul.block-menu li.community a:hover {
+    background-position: -712px -56px;
+}
+ul.block-menu li.support {
+    margin-left: -56px; 
+}
+ul.block-menu li.support a {
+    padding-right: 56px;
+    background-position: -934px -6px;
+}
+ul.block-menu li.support a:hover {
+    background-position: -934px -56px;
+}
+.main_box_table td {
+    margin: 0;
+    padding-top: 0;
+}
+
+div.block-menu-sub {
+    position: absolute;
+    width: 980px;
+    padding-left: 20px;
+}
+
+
+div.body-center, div.body-wrapper {
+    position: relative;
+}
+ul.block-menu-sub li {
+    background: url(https://cdn.amtsft.com/zCwnxh47kj_cbidDNgq8uYBK-E.png) 0 -139px no-repeat;
+    color: #000;
+    float: left;
+    height: 34px;
+    padding: 5px 10px 0;
+    font-size: 13px;
+    
+}
+ul.block-menu-sub li a:hover{
+    text-decoration: underline;
+}
+
+ul.block-menu-sub li.left {
+    background-position: 0 -100px;
+    width: 78px;
+    padding: 5px 0 0 0;
+}
+ul.block-menu-sub li.right {
+    background-position: -78px -100px;
+    width: 78px;
+    padding: 5px 0 0 0;
+}
+ul {
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.fon {
+    background: url(https://cdn.amtsft.com/AsTlLyNUMpRh36OxkjPeFE-.png) top center repeat-y; 
+}
+
+/*
+.classes {
+    background: url('https://volia.biz/armory/images/iconclass.png');
+    background-repeat: no-repeat; 
+    width: 26px;
+    height: 26px;
+    position: relative; 
+    box-shadow: 2px 2px 3px rgba(67, 57, 57, 0.5);
+}
+
+.armory2 {
+background: url('https://volia.biz/armory/images/armory2.png') 0px 164px;
+width: 266px;
+height: 156px;
+display: inline-block;
+cursor: pointer;
+}
+.calculator2 {
+background: url('https://volia.biz/armory/images/calculator2.png') 0px 0px;
+width: 266px;
+height: 156px;
+display: inline-block;
+cursor: pointer;
+}
+.calculator2:hover {
+background: url('https://volia.biz/armory/images/calculator2.png') 0px 164px;
+} */
+
+.fon-predmeti {
+    border-radius: 11px;
+    background: url(https://volia.biz/armory/images/bg2.jpg);
+    border-left: 2px solid black;
+    background-repeat: repeat;
+    border-right: 2px solid black;
+    min-height: 750px;
+    position: relative;
+    z-index: 1;
+}
+.bot-shadow {
+    height: 46px;
+     width: 100%; 
+     background: url(https://volia.biz/armory/images/fade1.png);
+      position: absolute; 
+      bottom: 0; 
+      border-radius: 10px;
+       z-index: 1;
+}
+.top-shadow {
+    height: 46px; width: 100%;
+     background: url(https://volia.biz/armory/images/fade1.png); 
+     position: absolute;
+      top: 0;
+      border-radius: 10px;
+      -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    z-index: 1;
+}
+.oruzh {
+    position: relative; z-index: 2; padding:25px 0;
+}
+.search {
+margin-top: 9px;
+border-radius: 4px 4px 4px 4px;
+box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+margin-right: 4px;
+background: wheat;
+font-weight: bold;"
+}
+.tableots {
+padding-top: 100px;
+}
