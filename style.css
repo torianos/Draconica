@@ -172,10 +172,14 @@ ul.banner li h2 {
 @media (max-width: 1000px) {
     .main_box  {
         width: 1000px;
+    
+
     }
     .fon {
         width:1000px;
+        margin-left: 4%;
     }
+
 }
 
 .main_box_table {
